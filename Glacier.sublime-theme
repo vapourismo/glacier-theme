@@ -360,6 +360,7 @@
 		"class": "tree_row",
 		"attributes": ["hover"],
 		"layer0.tint": [150, 55, 60],
+		"layer0.opacity": 0.5
 	},
 	// Sidebar heading
 	{
