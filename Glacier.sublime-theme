@@ -283,16 +283,15 @@
 	// Tooltip container
 	{
 		"class": "tool_tip_control",
-		"layer0.texture": "",
-		"layer0.tint": [28, 28, 28],
-		"layer0.inner_margin": [1,1],
+		"layer0.texture": null,
+		"layer0.tint": [26, 26, 26],
 		"layer0.opacity": 1,
-		"content_margin": [20, 15]
+		"content_margin": [10, 10]
 	},
 	// Tooltip content
 	{
 		"class": "tool_tip_label_control",
-		"color": [239,241,245]
+		"color": [175, 175, 175]
 	},
 
 //========================================================
@@ -451,8 +450,8 @@
 	// Default button state
 	{
 		"class": "button_control",
-		"content_margin": 12,
-		"min_size": [60,0],
+		"content_margin": 13,
+		"min_size": [50,0],
 		"layer0.texture": null,
 		"layer0.opacity": 1,
 		"layer0.tint": [20, 20, 20]
@@ -461,15 +460,15 @@
 	{
 		"class": "button_control",
 		"attributes": ["hover"],
-		"layer0.texture": null,
-		"layer0.tint": [0,0,0]
+		"layer0.tint": [150, 55, 60],
+		"layer0.opacity": 0.5
 	},
 	// Pressed button state
 	{
 		"class": "button_control",
 		"attributes": ["pressed"],
-		"layer0.texture": null,
-		"layer0.tint": [0,0,0]
+		"layer0.tint": [150, 55, 60],
+		"layer0.opacity": 1
 	},
 
 //========================================================
@@ -618,54 +617,22 @@
 	// Button group middle
 	{
 		"class": "icon_button_control",
-		"layer1.texture": "",
-		"layer1.opacity": 0,
-		"layer1.tint": [35,40,48],
-		"content_margin": 10
+		"layer0.texture": null,
+		"layer0.opacity": 1,
+		"layer0.tint": [20, 20, 20],
+		"content_margin": 11
 	},
 	{
 		"class": "icon_button_control",
 		"attributes": ["selected"],
-		"layer0.opacity": 0
-	},
-	// Button group left
-	{
-		"class": "icon_button_control",
-		"attributes": ["left"],
-		"layer0.texture": ""
-	},
-	// Button group left
-	{
-		"class": "icon_button_control",
-		"attributes": ["left"],
-		"layer0.texture": ""
+		"layer0.tint": [150, 55, 60],
+		"layer0.opacity": 1
 	},
 	{
 		"class": "icon_button_control",
-		"attributes": ["left","selected"],
-		"layer0.texture": ""
-	},
-	// Button group right
-	{
-		"class": "icon_button_control",
-		"attributes": ["right"],
-		"layer0.texture": ""
-	},
-	{
-		"class": "icon_button_control",
-		"attributes": ["right","selected"],
-		"layer0.texture": ""
-	},
-	// Button single
-	{
-		"class": "icon_button_control",
-		"attributes": ["left","right"],
-		"layer0.texture": ""
-	},
-	{
-		"class": "icon_button_control",
-		"attributes": ["left","right","selected"],
-		"layer0.texture": ""
+		"attributes": ["hover"],
+		"layer0.tint": [150, 55, 60],
+		"layer0.opacity": 0.5
 	},
 
 //========================================================
@@ -675,56 +642,56 @@
 	// Regex search button
 	{
 		"class": "icon_regex",
-		"layer0.texture": "Theme - Glacier/Glacier/regex.png",
-		"layer0.tint": [79,91,102],
-		"layer0.opacity": 1,
+		"layer1.texture": "Theme - Glacier/Glacier/regex.png",
+		"layer1.tint": [175, 175, 175],
+		"layer1.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_regex",
 		"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-		"layer0.tint": [94,235,184]
+		"layer1.tint": [200, 200, 200]
 	},
 	{
 		"class": "icon_regex",
 		"parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-		"layer0.tint": [94,235,184]
+		"layer1.tint": [200, 200, 200],
 	},
 	// Case sensitive search button
 	{
 		"class": "icon_case",
-		"layer0.texture": "Theme - Glacier/Glacier/casesens.png",
-		"layer0.tint": [79,91,102],
-		"layer0.opacity": 1,
+		"layer1.texture": "Theme - Glacier/Glacier/casesens.png",
+		"layer1.tint": [175, 175, 175],
+		"layer1.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_case",
 		"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-		"layer0.tint": [94,235,184]
+		"layer1.tint": [200, 200, 200]
 	},
 	{
 		"class": "icon_case",
 		"parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-		"layer0.tint": [94,235,184]
+		"layer1.tint": [200, 200, 200]
 	},
 	// Match whole word search button
 	{
 		"class": "icon_whole_word",
-		"layer0.texture": "Theme - Glacier/Glacier/wholeword.png",
-		"layer0.tint": [79,91,102],
-		"layer0.opacity": 1,
+		"layer1.texture": "Theme - Glacier/Glacier/wholeword.png",
+		"layer1.tint": [175, 175, 175],
+		"layer1.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_whole_word",
 		"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-		"layer0.tint": [94,235,184]
+		"layer1.tint": [200, 200, 200]
 	},
 	{
 		"class": "icon_whole_word",
 		"parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-		"layer0.tint": [94,235,184]
+		"layer1.tint": [200, 200, 200]
 	},
 
 //========================================================
@@ -735,96 +702,78 @@
 	{
 		"class": "icon_context",
 		"layer0.texture": "Theme - Glacier/Glacier/context.png",
-		"layer0.tint": [79,91,102],
+		"layer0.tint": [175, 175, 175],
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_context",
 		"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-		"layer0.tint": [94,235,184]
+		"layer0.tint": [200, 200, 200]
 	},
 	{
 		"class": "icon_context",
 		"parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-		"layer0.tint": [94,235,184]
+		"layer0.tint": [200, 200, 200]
 	},
 	// Use search buffer
 	{
 		"class": "icon_use_buffer",
 		"layer0.texture": "Theme - Glacier/Glacier/buffer.png",
-		"layer0.tint": [79,91,102],
+		"layer0.tint": [175, 175, 175],
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_use_buffer",
 		"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-		"layer0.tint": [94,235,184]
+		"layer0.tint": [200, 200, 200]
 	},
 	{
 		"class": "icon_use_buffer",
 		"parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-		"layer0.tint": [94,235,184]
+		"layer0.tint": [200, 200, 200]
 	},
 
 //========================================================
 //  BOTTOM PANEL ICONS - GROUP 2
 //--------------------------------------------------------
 
-	// Reverse search direction button (ST2 only)
-	{
-		"class": "icon_reverse",
-		"layer0.texture": "Theme - Glacier/Glacier/reverse.png",
-		"layer0.tint": [79,91,102],
-		"layer0.opacity": 1,
-		"content_margin": 8
-	},
-	{
-		"class": "icon_reverse",
-		"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-		"layer0.tint": [94,235,184]
-	},
-	{
-		"class": "icon_reverse",
-		"parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-		"layer0.tint": [94,235,184]
-	},
 	// Search wrap button
 	{
 		"class": "icon_wrap",
 		"layer0.texture": "Theme - Glacier/Glacier/wrap.png",
-		"layer0.tint": [79,91,102],
+		"layer0.tint": [175, 175, 175],
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_wrap",
 		"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-		"layer0.tint": [94,235,184]
+		"layer0.tint": [200, 200, 200]
 	},
 	{
 		"class": "icon_wrap",
 		"parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-		"layer0.tint": [94,235,184]
+		"layer0.tint": [200, 200, 200]
 	},
 	// Search in selection button
 	{
 		"class": "icon_in_selection",
 		"layer0.texture": "Theme - Glacier/Glacier/selection.png",
-		"layer0.tint": [79,91,103],
+		"layer0.tint": [175, 175, 175],
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_in_selection",
 		"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-		"layer0.tint": [94,235,184]
+		"layer0.tint": [200, 200, 200]
 	},
 	{
 		"class": "icon_in_selection",
 		"parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-		"layer0.tint": [94,235,184]
+		"layer0.tint": [200, 200, 200]
 	},
 
 //========================================================
@@ -835,19 +784,19 @@
 	{
 		"class": "icon_preserve_case",
 		"layer0.texture": "Theme - Glacier/Glacier/casesens.png",
-		"layer0.tint": [79,91,102],
+		"layer0.tint": [175, 175, 175],
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_preserve_case",
 		"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-		"layer0.tint": [94,235,184]
+		"layer0.tint": [200, 200, 200]
 	},
 	{
 		"class": "icon_preserve_case",
 		"parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-		"layer0.tint": [94,235,184]
+		"layer0.tint": [200, 200, 200]
 	},
 
 //========================================================
@@ -858,18 +807,18 @@
 	{
 		"class": "icon_highlight",
 		"layer0.texture": "Theme - Glacier/Glacier/highlight.png",
-		"layer0.tint": [79,91,102],
+		"layer0.tint": [175, 175, 175],
 		"layer0.opacity": 1,
 		"content_margin": 8
 	},
 	{
 		"class": "icon_highlight",
 		"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-		"layer0.tint": [94,235,184]
+		"layer0.tint": [200, 200, 200]
 	},
 	{
 		"class": "icon_highlight",
 		"parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-		"layer0.tint": [94,235,184]
+		"layer0.tint": [200, 200, 200]
 	}
 ]
