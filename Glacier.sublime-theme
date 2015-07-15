@@ -187,7 +187,7 @@
 	{
 		"class": "grid_layout_control",
 		"border_size": 0,
-		"border_color": [40, 40, 40]
+		"border_color": [26, 26, 26]
 	},
 
 //========================================================
@@ -206,21 +206,9 @@
 	// General labels
 	{
 		"class": "label_control",
-		"color": [175, 175, 175]
-	},
-	// Text field labels
-	{
-		"class": "label_control",
-		"parents": [{"class": "panel_control"}],
-		"shadow_color": [0, 0, 0],
-		"shadow_offset": [1, 1]
-	},
-	// Button labels
-	{
-		"class": "label_control",
-		"parents": [{"class": "button_control"}],
-		"shadow_color": [55, 55, 55],
-		"shadow_offset": [0, 0]
+		"color": [175, 175, 175],
+		"font.face": "Inconsolata",
+		"font.size": 12.5
 	},
 
 //========================================================
@@ -257,15 +245,6 @@
 	{
 		"class": "status_button",
 		"min_size": [100, 0]
-	},
-	// Status bar label
-	{
-		"class": "label_control",
-		"parents": [{"class": "status_bar"}],
-		"color": [175, 175, 175],
-		"shadow_offset": [0, 0],
-		"font.face": "Inconsolata",
-		"font.size": 12.5
 	},
 
 //========================================================
