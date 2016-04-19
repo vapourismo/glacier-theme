@@ -82,8 +82,8 @@
 		"fade": true,
 		"fg": [175, 175, 175],
 		"content_margin": 40,
-		"font.face": "Inconsolata",
-		"font.size": 12.5
+		"font.face": "Iosevka",
+		"font.size": 11
 	},
 	{
 		"class": "tab_label",
@@ -207,8 +207,8 @@
 	{
 		"class": "label_control",
 		"color": [175, 175, 175],
-		"font.face": "Inconsolata",
-		"font.size": 12.5
+		"font.face": "Iosevka",
+		"font.size": 11
 	},
 
 //========================================================
@@ -297,8 +297,8 @@
 	{
 		"class": "sidebar_label",
 		"color": [175, 175, 175],
-		"font.face": "Inconsolata",
-		"font.size": 12.5
+		"font.face": "Iosevka",
+		"font.size": 11
 	},
 	// Sidebar folder entry
 	{
