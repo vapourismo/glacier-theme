@@ -28,14 +28,14 @@
 	// Tab hover state
 	{
 		"class": "tab_control",
-		"layer0.tint": [150, 55, 60],
+		"layer0.tint": [47, 52, 63],
 		"layer0.opacity": 0.5,
 		"attributes": ["hover"],
 	},
 	// Tab active state
 	{
 		"class": "tab_control",
-		"layer0.tint": [150, 55, 60],
+		"layer0.tint": [47, 52, 63],
 		"attributes": ["selected"],
 		"layer0.opacity": 1
 	},
@@ -147,7 +147,7 @@
 	{
 		"class": "puck_control",
 		"layer0.texture": null,
-		"layer0.tint": [150, 55, 60],
+		"layer0.tint": [47, 52, 63],
 		"layer0.opacity": 0,
 		"layer0.inner_margin": 0,
 		"content_margin": [6, 0],
@@ -279,12 +279,12 @@
 	{
 		"class": "tree_row",
 		"attributes": ["selected"],
-		"layer0.tint": [150, 55, 60],
+		"layer0.tint": [47, 52, 63],
 	},
 	{
 		"class": "tree_row",
 		"attributes": ["hover"],
-		"layer0.tint": [150, 55, 60],
+		"layer0.tint": [47, 52, 63],
 		"layer0.opacity": 0.5
 	},
 	// Sidebar heading
@@ -386,14 +386,14 @@
 	{
 		"class": "button_control",
 		"attributes": ["hover"],
-		"layer0.tint": [150, 55, 60],
+		"layer0.tint": [47, 52, 63],
 		"layer0.opacity": 0.5
 	},
 	// Pressed button state
 	{
 		"class": "button_control",
 		"attributes": ["pressed"],
-		"layer0.tint": [150, 55, 60],
+		"layer0.tint": [47, 52, 63],
 		"layer0.opacity": 1
 	},
 
@@ -452,33 +452,33 @@
 	{
 		"class": "quick_panel_row",
 		"attributes": ["selected"],
-		"layer0.tint": [150, 55, 60],
+		"layer0.tint": [47, 52, 63],
 		"layer0.opacity": 1
 	},
 	{
 		"class": "quick_panel_row",
 		"attributes": ["hover"],
-		"layer0.tint": [150, 55, 60],
+		"layer0.tint": [47, 52, 63],
 		"layer0.opacity": 0.5
 	},
 	{
 		"class": "quick_panel_label",
 		"fg": [200, 200, 200],
-		"match_fg": [150, 55, 60],
+		"match_fg": [47, 52, 63],
 		"selected_fg": [200, 200, 200],
 		"selected_match_fg": [255, 255, 255]
 	},
 	{
 		"class": "quick_panel_path_label",
 		"fg": [200, 200, 200],
-		"match_fg": [150, 55, 60],
+		"match_fg": [47, 52, 63],
 		"selected_fg": [200, 200, 200],
 		"selected_match_fg": [255, 255, 255]
 	},
 	{
 		"class": "quick_panel_score_label",
 		"fg": [200, 200, 200],
-		"match_fg": [150, 55, 60],
+		"match_fg": [47, 52, 63],
 		"selected_fg": [200, 200, 200],
 		"selected_match_fg": [255, 255, 255]
 	},
@@ -497,7 +497,7 @@
 		"class": "mini_quick_panel_row",
 		"attributes": ["selected"],
 		"layer0.texture": null,
-		"layer0.tint": [150, 55, 60]
+		"layer0.tint": [47, 52, 63]
 	},
 
 //========================================================
@@ -517,7 +517,7 @@
 	{
 		"class": "auto_complete_label",
 		"fg": [200, 200, 200],
-		"match_fg": [150, 55, 60],
+		"match_fg": [47, 52, 63],
 		"selected_fg": [200, 200, 200],
 		"selected_match_fg": [255, 255, 255]
 	},
@@ -532,13 +532,13 @@
 		"class": "table_row",
 		"attributes": ["selected"],
 		"layer0.opacity": 1,
-		"layer0.tint": [150, 55, 60]
+		"layer0.tint": [47, 52, 63]
 	},
 	{
 		"class": "table_row",
 		"attributes": ["hover"],
 		"layer0.opacity": 0.5,
-		"layer0.tint": [150, 55, 60]
+		"layer0.tint": [47, 52, 63]
 	},
 
 //========================================================
@@ -556,13 +556,13 @@
 	{
 		"class": "icon_button_control",
 		"attributes": ["selected"],
-		"layer0.tint": [150, 55, 60],
+		"layer0.tint": [47, 52, 63],
 		"layer0.opacity": 1
 	},
 	{
 		"class": "icon_button_control",
 		"attributes": ["hover"],
-		"layer0.tint": [150, 55, 60],
+		"layer0.tint": [47, 52, 63],
 		"layer0.opacity": 0.5
 	},
 
